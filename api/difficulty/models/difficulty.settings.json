@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "difficulties",
+  "info": {
+    "name": "Difficulty"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name_difficulty": {
+      "type": "string"
+    }
+  }
+}

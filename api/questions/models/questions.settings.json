@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "questions",
+  "info": {
+    "name": "Question",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question": {
+      "type": "text"
+    },
+    "correct_answer": {
+      "type": "string"
+    },
+    "incorrect_answers": {
+      "type": "json",
+      "required": false
+    },
+    "category": {
+      "via": "questions",
+      "model": "category"
+    },
+    "difficulty": {
+      "model": "difficulty"
+    },
+    "aware": {
+      "model": "aware"
+    }
+  }
+}

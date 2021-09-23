@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "awares",
+  "info": {
+    "name": "Aware"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name_award": {
+      "type": "string"
+    }
+  }
+}
